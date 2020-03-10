@@ -6,6 +6,6 @@
     "author": "mobge",
     "description": "Automatically build addressable bundles when building the player.",
     "dependencies": {
-    	"com.unity.addressables" : "1.1.10",
+    	"com.unity.addressables" : "1.1.10"
     }
 }
