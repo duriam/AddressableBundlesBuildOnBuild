@@ -1,7 +1,8 @@
 {
-    "name": "com.eskimosehir.editor-buff",
-    "references": [],
-    "optionalUnityReferences": [],
+    "name": "com.mobge.addressable-bundle-builder",
+    "references": [
+        "GUID:69448af7b92c7f342b298e06a37122aa"
+    ],
     "includePlatforms": [
         "Editor"
     ],
@@ -10,5 +11,7 @@
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": []
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
