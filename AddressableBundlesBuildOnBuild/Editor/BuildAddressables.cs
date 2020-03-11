@@ -9,6 +9,10 @@ class BuildAddressablesProcessor
     /// <summary>
     /// Run a clean build before export.
     /// </summary>
+    
+    // PreBuild callbacks are not usable for building asset bundles + addressables. Unity throws following error.
+    // InvalidOperationException: Cannot build asset bundles while a build is in progress.
+    // This workaround gets prebuild hooks to call assetbundle generation methods that does not depend on callbacks
     static public void PreExport()
     {
         Debug.Log("BuildAddressablesProcessor.PreExport start");
